@@ -7,7 +7,7 @@ Designed to showcase restaurants, cafes, or any service-based business with a cl
 
 ## 🚀 Live Demo
 (Add your GitHub Pages link here)  
-👉 https://kumail-kmr25.githu.io/kashmirbistro
+👉 https://kumail-kmr25.githu.io/kashmirbistro-KB
 
 ---
 
