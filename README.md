@@ -109,14 +109,6 @@ You can deploy this project using:
 
 ---
 
-## 💼 Freelancing Use Case
-
-This project is designed to help you:
-
-- Showcase your skills to clients  
-- Create demo websites for real businesses  
-- Convert local businesses into paying clients  
-
 💡 **Pro Tip:**
 Customize this website for a real business and send them:
 > “I created a demo website for your business. Would you like to see it?”
