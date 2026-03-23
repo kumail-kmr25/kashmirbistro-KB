@@ -4,25 +4,25 @@
 
 /* ===== CSS VARIABLES ===== */
 :root {
-    --primary-color: #c17f3e;
-    --primary-dark: #a66b32;
-    --primary-light: #d4965a;
-    --secondary-color: #1a1a2e;
-    --accent-color: #e8d5b7;
-    --text-dark: #2d2d2d;
-    --text-light: #6b6b6b;
-    --text-white: #ffffff;
-    --bg-light: #faf8f5;
-    --bg-white: #ffffff;
-    --bg-dark: #16213e;
-    --gradient-gold: linear-gradient(135deg, #c17f3e 0%, #d4965a 100%);
-    --shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.1);
-    --shadow-md: 0 5px 20px rgba(0, 0, 0, 0.15);
-    --shadow-lg: 0 10px 40px rgba(0, 0, 0, 0.2);
-    --shadow-xl: 0 20px 60px rgba(0, 0, 0, 0.25);
-    --border-radius: 12px;
-    --border-radius-lg: 20px;
-    --transition: all 0.3s ease;
+    primary-color: #c17f3e;
+    primary-dark: #a66b32;
+    primary-light: #d4965a;
+    secondary-color: #1a1a2e;
+    accent-color: #e8d5b7;
+    text-dark: #2d2d2d;
+    text-light: #6b6b6b;
+    text-white: #ffffff;
+    bg-light: #faf8f5;
+    bg-white: #ffffff;
+    bg-dark: #16213e;
+    gradient-gold: linear-gradient(135deg, #c17f3e 0%, #d4965a 100%);
+    shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.1);
+    shadow-md: 0 5px 20px rgba(0, 0, 0, 0.15);
+    shadow-lg: 0 10px 40px rgba(0, 0, 0, 0.2);
+    shadow-xl: 0 20px 60px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    border-radius-lg: 20px;
+    transition: all 0.3s ease;
 }
 
 /* ===== RESET & BASE STYLES ===== */
