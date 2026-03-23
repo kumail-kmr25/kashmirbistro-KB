@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Gourmet Bistro - Fine Dining Experience in the heart of the city. Enjoy exquisite cuisine, elegant ambiance, and exceptional service.">
+    <meta name="keywords" content="restaurant, cafe, fine dining, gourmet, food, cuisine">
+    <meta name="author" content="Gourmet Bistro">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Gourmet Bistro - Fine Dining Experience">
+    <meta property="og:description" content="Experience exquisite cuisine in an elegant setting">
+    <meta property="og:type" content="website">
+    <title>Gourmet Bistro | Fine Dining Experience</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header & Navigation -->
+    <header class="header" id="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="#" class="nav-logo">
+                    <i class="fas fa-utensils"></i>
+                    <span>kashmir Bistro</span>
+                </a>
+                <ul class="nav-menu" id="navMenu">
+                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#menu" class="nav-link">Menu</a></li>
+                    <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li class="nav-item"><a href="#testimonials" class="nav-link">Reviews</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-badge">
+                <i class="fas fa-star"></i>
+                <span>Fine Dining Experience</span>
+            </div>
+            <h1 class="hero-title">Welcome to<br><span>kashmir Bistro</span></h1>
+            <p class="hero-subtitle">Discover the art of exquisite cuisine in an elegant ambiance. Where passion meets
+                flavor, creating unforgettable dining experiences.</p>
+            <div class="hero-buttons">
+                <a href="tel:+1234567890" class="btn btn-primary">
+                    <i class="fas fa-phone"></i> Call Now
+                </a>
+                <a href="https://wa.me/1234567890" target="_blank" class="btn btn-secondary">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+                <a href="#menu" class="btn btn-outline">
+                    <i class="fas fa-book-open"></i> View Menu
+                </a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=700&fit=crop"
+                alt="Restaurant Interior">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Our Story</span>
+                <h2 class="section-title">About Us</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=500&h=600&fit=crop"
+                        alt="Chef preparing dish">
+                    <div class="experience-badge">
+                        <span class="number">15+</span>
+                        <span class="text">Years of<br>Excellence</span>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>A Culinary Journey Since 2009</h3>
+                    <p>Gourmet Bistro was founded with a simple yet powerful vision: to create exceptional dining
+                        experiences that delight the senses and bring people together.</p>
+                    <p>Our talented team of chefs crafts each dish with passion, using only the freshest locally-sourced
+                        ingredients and innovative culinary techniques.</p>
+                    <p>We believe that great food is about more than just taste—it's about creating memories, fostering
+                        connections, and celebrating life's special moments.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-award"></i>
+                            <span>Award Winning</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-leaf"></i>
+                            <span>Fresh Ingredients</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-heart"></i>
+                            <span>Made with Love</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-clock"></i>
+                            <span>Timely Service</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Delicious Dishes</span>
+                <h2 class="section-title">Our Menu</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="menu-tabs">
+                <button class="tab-btn active" data-tab="starters">Starters</button>
+                <button class="tab-btn" data-tab="main">Main Course</button>
+                <button class="tab-btn" data-tab="desserts">Desserts</button>
+                <button class="tab-btn" data-tab="drinks">Drinks</button>
+            </div>
+            <div class="menu-content">
+                <div class="menu-panel active" id="starters">
+                    <div class="menu-grid">
+                        <div class="menu-card">
+                            <div class="menu-card-img">
+                                <img src="https://images.unsplash.com/photo-1541014741259-de529411b96a?w=300&h=200&fit=crop"
+                                    alt="Bruschetta">
+                            </div>
+                            <div class="menu-card-info">
+                                <div class="menu-card-header">
+                                    <h4>Classic Bruschetta</h4>
+                                    <span class="price">$12.99</span>
+                                </div>
+                                <p>Toasted bread topped with fresh tomatoes, garlic, basil & olive oil</p>
+                            </div>
+                        </div>
+                        <div class="menu-card">
+                            <div class="menu-card-img">
+                                <img src="https://images.unsplash.com/photo-1608039829572-9b5e89dc3a57?w=300&h=200&fit=crop"
+                                    alt="Calamari">
+                            </div>
+                            <div class="menu-card-info">
+                                <div class="menu-card-header">
+                                    <h4>Crispy Calamari</h4>
+                                    <span class="price">$15.99</span>
+                                </div>
+                                <p>Golden fried calamari rings served with zesty lemon aioli</p>
+                            </div>
+                        </div>
+                        <div class="menu-card">
+                            <div class="menu-card-img">
+                                <img src="https://images.unsplash.com/photo-1512058564366-18510be2db19?w=300&h=200&fit=crop"
+                                    alt="Mushroom Soup">
+                            </div>
+                            <div class="menu-card-info">
+                                <div class="menu-card-header">
+                                    <h4>Creamy Mushroom Soup</h4>
+                                    <span class="price">$10.99</span>
+                                </div>
+                                <p>Rich and velvety soup with wild mushrooms & truffle oil</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-panel" id="main">
+                    <div class="menu-grid">
+                        <div class="menu-card">
+                            <div class="menu-card-img">
+                                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=300&h=200&fit=crop"
+                                    alt="Grilled Salmon">
+                            </div>
+                            <div class="menu-card-info">
+                                <div class="menu-card-header">
+                                    <h4>Grilled Atlantic Salmon</h4>
+                                    <span class="price">$28.99</span>
+                                </div>
+                                <p>Perfectly grilled salmon with roasted vegetables & herb butter</p>
+                            </div>
+                        </div>
+                        <div class="menu-card">
+                            <div class="menu-card-img">
+                                <img src="https://images.unsplash.com/photo-1558030006-450675393462?w=300&h=200&fit=crop"
+                                    alt="Steak">
+                            </div>
+                            <div class="menu-card-info">
+                                <div class="menu-card-header">
+                                    <h4>Prime Ribeye Steak</h4>
+                                    <span class="price">$42.99</span>
+                                </div>
+                                <p>12oz premium ribeye with truffle fries & peppercorn sauce</p>
+                            </div>
+                        </div>
+                        <div class="menu-card">
+                            <div class="menu-card-img">
+                                <img src="https://images.unsplash.com/photo-1623653387945-2fd25214f8fc?w=300&h=200&fit=crop"
+                                    alt="Pasta">
+                            </div>
+                            <div class="menu-card-info">
+                                <div class="menu-card-header">
+                                    <h4>Truffle Pasta</h4>
+                                    <span class="price">$24.99</span>
+                                </div>
+                                <p>Fresh tagliatelle with black truffle cream & parmesan</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-panel" id="desserts">
+                    <div class="menu-grid">
+                        <div class="menu-card">
+                            <div class="menu-card-img">
+                                <img src="https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=300&h=200&fit=crop"
+                                    alt="Tiramisu">
+                            </div>
+                            <div class="menu-card-info">
+                                <div class="menu-card-header">
+                                    <h4>Classic Tiramisu</h4>
+                                    <span class="price">$11.99</span>
+                                </div>
+                                <p>Italian classic with mascarpone, espresso & cocoa</p>
+                            </div>
+                        </div>
+                        <div class="menu-card">
+                            <div class="menu-card-img">
+                                <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?w=300&h=200&fit=crop"
+                                    alt="Chocolate Cake">
+                            </div>
+                            <div class="menu-card-info">
+                                <div class="menu-card-header">
+                                    <h4>Chocolate Lava Cake</h4>
+                                    <span class="price">$13.99</span>
+                                </div>
+                                <p>Warm chocolate cake with molten center & vanilla ice cream</p>
+                            </div>
+                        </div>
+                        <div class="menu-card">
+                            <div class="menu-card-img">
+                                <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=300&h=200&fit=crop"
+                                    alt="Cheesecake">
+                            </div>
+                            <div class="menu-card-info">
+                                <div class="menu-card-header">
+                                    <h4>New York Cheesecake</h4>
+                                    <span class="price">$10.99</span>
+                                </div>
+                                <p>Creamy cheesecake with berry compote & fresh mint</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-panel" id="drinks">
+                    <div class="menu-grid">
+                        <div class="menu-card">
+                            <div class="menu-card-img">
+                                <img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=300&h=200&fit=crop"
+                                    alt="Wine">
+                            </div>
+                            <div class="menu-card-info">
+                                <div class="menu-card-header">
+                                    <h4>House Red Wine</h4>
+                                    <span class="price">$18.99</span>
+                                </div>
+                                <p>Premium selection from our curated wine collection</p>
+                            </div>
+                        </div>
+                        <div class="menu-card">
+                            <div class="menu-card-img">
+                                <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=300&h=200&fit=crop"
+                                    alt="Cocktail">
+                            </div>
+                            <div class="menu-card-info">
+                                <div class="menu-card-header">
+                                    <h4>Signature Cocktail</h4>
+                                    <span class="price">$14.99</span>
+                                </div>
+                                <p>Our chef's special mix of premium spirits & fresh fruits</p>
+                            </div>
+                        </div>
+                        <div class="menu-card">
+                            <div class="menu-card-img">
+                                <img src="https://images.unsplash.com/photo-1544145945-f90425340c7e?w=300&h=200&fit=crop"
+                                    alt="Mocktail">
+                            </div>
+                            <div class="menu-card-info">
+                                <div class="menu-card-header">
+                                    <h4>Fresh Mocktail</h4>
+                                    <span class="price">$9.99</span>
+                                </div>
+                                <p>Refreshing blend of tropical fruits & herbs</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Photo Gallery</span>
+                <h2 class="section-title">Our Gallery</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400&h=300&fit=crop"
+                        alt="Restaurant Interior">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=400&h=300&fit=crop"
+                        alt="Dining Area">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?w=400&h=300&fit=crop"
+                        alt="Chef at Work">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=400&h=300&fit=crop"
+                        alt="Food Presentation">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1544148103-0773bf10d330?w=400&h=300&fit=crop"
+                        alt="Bar Area">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=400&h=300&fit=crop"
+                        alt="Outdoor Seating">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Customer Reviews</span>
+                <h2 class="section-title">What Our Guests Say</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Absolutely amazing experience! The food was exquisite, and the service
+                        was impeccable. The ambiance is perfect for a romantic dinner or a special celebration. Highly
+                        recommend!"</p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=80&h=80&fit=crop"
+                            alt="Sarah Johnson">
+                        <div class="author-info">
+                            <h5>Sarah Johnson</h5>
+                            <span>Food Critic</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Best restaurant in town! The chef's specials are always a delight. The
+                        staff is incredibly friendly and attentive. We've been coming here for years and it never
+                        disappoints!"</p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&h=80&fit=crop"
+                            alt="Michael Chen">
+                        <div class="author-info">
+                            <h5>Michael Chen</h5>
+                            <span>Regular Guest</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="testimonial-text">"Celebrated our anniversary here and it was perfect! The private dining
+                        area, the special menu, and the attention to detail made our evening unforgettable. Thank you
+                        Gourmet Bistro!"</p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=80&h=80&fit=crop"
+                            alt="Emily Davis">
+                        <div class="author-info">
+                            <h5>Emily Davis</h5>
+                            <span>Happy Customer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Get In Touch</span>
+                <h2 class="section-title">Contact Us</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Visit Us</h3>
+                    <p>Come experience the finest dining in the city. Reserve your table today!</p>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-text">
+                            <h4>Address</h4>
+                            <p>123 Gourmet Street, Downtown<br>City Center, ST 12345</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="info-text">
+                            <h4>Phone</h4>
+                            <p><a href="tel:+1234567890">+1 (234) 567-8900</a></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-text">
+                            <h4>Email</h4>
+                            <p><a href="mailto:info@gourmetbistro.com">info@gourmetbistro.com</a></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="info-text">
+                            <h4>Opening Hours</h4>
+                            <p>Mon - Fri: 11:00 AM - 10:00 PM<br>Sat - Sun: 10:00 AM - 11:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <h3>Make a Reservation</h3>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                            <div class="error-message">Please enter your name</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                            <div class="error-message">Please enter a valid phone number</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email">
+                            <div class="error-message">Please enter a valid email</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Special Requests</label>
+                            <textarea id="message" name="message" placeholder="Any special requests or occasions..."
+                                rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-calendar-check"></i> Book Now
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.30591910525!2d-74.25986432970718!3d40.69714941680757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1647893723934!5m2!1sen!2s"
+                    allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-utensils"></i>
+                        <span>Gourmet Bistro</span>
+                    </div>
+                    <p>Experience the finest dining in the city. We bring passion to every plate and create memories
+                        that last a lifetime.</p>
+                    <div class="social-links">
+                        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-tripadvisor"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#menu">Our Menu</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#testimonials">Reviews</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Opening Hours</h4>
+                    <ul class="footer-hours">
+                        <li><span>Monday - Friday:</span> 11:00 AM - 10:00 PM</li>
+                        <li><span>Saturday:</span> 10:00 AM - 11:00 PM</li>
+                        <li><span>Sunday:</span> 10:00 AM - 11:00 PM</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul class="footer-contact">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Gourmet Street, Downtown</li>
+                        <li><i class="fas fa-phone-alt"></i> <a href="tel<a+912003001121:">+91 2003001121</a></li>
+                        <li><i class="fas fa-envelope"></i> 
+                                href="mailto:info@gourmetbistro.com">info@gourmetbistro.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Gourmet Bistro. All Rights Reserved. Designed with <i class="fas fa-heart"></i> for local
+                    businesses.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/6006121193" target="_blank" class="whatsapp-float" title="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Floating Call Button -->
+    <a href="tel:+916006121193" class="call-float" title="Call Now">
+        <i class="fas fa-phone"></i>
+    </a>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" title="Back to Top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
